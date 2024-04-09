@@ -97,7 +97,7 @@ let pattern = /^\d{4}-\d{2}-\d{2}$/;
         return;
       }
       document.querySelector('p').innerText = "Loading..."
-      var accessToken = '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'
+      var accessToken = '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'
       var owner = 'hemang111'
       var repo = 'To-do';
       var math = Math.ceil(Math.random() * 1000)
