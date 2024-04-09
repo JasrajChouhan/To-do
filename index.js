@@ -97,7 +97,7 @@ let pattern = /^\d{4}-\d{2}-\d{2}$/;
         return;
       }
       document.querySelector('p').innerText = "Loading..."
-      var accessToken = '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'
+      var accessToken = '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'
       var owner = 'hemang111'
       var repo = 'To-do';
       var math = Math.ceil(Math.random() * 1000)
@@ -126,6 +126,7 @@ let pattern = /^\d{4}-\d{2}-\d{2}$/;
             return response.json();
           })
           .then(data => {
+            console.log(data)
             const codestuff = document.createElement("div");
             codestuff.className = "act";
             const codename = target + Math.ceil(Math.random() * 1000);
@@ -155,7 +156,7 @@ let pattern = /^\d{4}-\d{2}-\d{2}$/;
             <div style="width: 300px; border: 1px solid white ;">
               <img
                 style="position:relative; left: 50% ; height: 340px; display: non;max-width: 300px; transform: translate(-50%);border:1px solid white"
-                src="https://raw.githubusercontent.com/hemang111/To-do/main/source/repos/file${math}.png" alt="">
+                src="https://raw.githubusercontent.com/hemang111/To-do/main/source/Images/file${math}.png" alt="">
             </div>
           </div>`;
             document.getElementById("main-grid").appendChild(codestuff);
@@ -352,7 +353,7 @@ let pattern = /^\d{4}-\d{2}-\d{2}$/;
             <div style="width: 300px; border: 1px solid white ;">
               <img
                 style="position:relative; left: 50% ; height: 340px; display: non;max-width: 300px; transform: translate(-50%);border:1px solid white"
-                src="https://raw.githubusercontent.com/hemang111/To-do/main/source/repos/file${stain}.png" alt="">
+                src="https://raw.githubusercontent.com/hemang111/To-do/main/source/Images/file${stain}.png" alt="">
             </div>
           </div>`
           document.getElementById("main-grid").appendChild(mainstuff1);
